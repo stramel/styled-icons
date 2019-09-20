@@ -3,28 +3,29 @@ import {AutoSizer, Grid, WindowScroller, GridCellProps} from 'react-virtualized'
 import queryString from 'query-string'
 import {StyledIcon} from 'styled-icons/types'
 import Router from 'next/router'
+import dynamic from 'next/dynamic'
 
 import * as JSSearch from 'js-search'
 
-import {
-  boxiconsLogos,
-  boxiconsRegular,
-  boxiconsSolid,
-  crypto,
-  evil,
-  faBrands,
-  faRegular,
-  faSolid,
-  feather,
-  icomoon,
-  material,
-  materialOutlined,
-  materialRounded,
-  materialTwotone,
-  materialSharp,
-  octicons,
-  typicons,
-} from 'styled-icons'
+// import {
+//   boxiconsLogos,
+//   boxiconsRegular,
+//   boxiconsSolid,
+//   crypto,
+//   evil,
+//   faBrands,
+//   faRegular,
+//   faSolid,
+//   feather,
+//   icomoon,
+//   material,
+//   materialOutlined,
+//   materialRounded,
+//   materialTwotone,
+//   materialSharp,
+//   octicons,
+//   typicons,
+// } from 'styled-icons'
 import iconManifest from 'styled-icons/manifest.json'
 
 import {IconCard} from './IconCard'
@@ -36,66 +37,71 @@ interface IconType {
   pack: string
   icon: StyledIcon
 }
+const icons = iconManifest.map((icon: any) => {
+  return {
+    ...icon,
+    icon: dynamic(() => import(`styled-icons/${icon.pack}/${icon.name}/${icon.name}`))
+  }
+})
+// const icons = iconManifest.map(
+//   (icon: any): IconType => {
+//     switch (icon.pack) {
+//       case 'boxicons-logos':
+//         return {...icon, icon: boxiconsLogos[icon.name as keyof typeof boxiconsLogos]}
 
-const icons = iconManifest.map(
-  (icon: any): IconType => {
-    switch (icon.pack) {
-      case 'boxicons-logos':
-        return {...icon, icon: boxiconsLogos[icon.name as keyof typeof boxiconsLogos]}
+//       case 'boxicons-regular':
+//         return {...icon, icon: boxiconsRegular[icon.name as keyof typeof boxiconsRegular]}
 
-      case 'boxicons-regular':
-        return {...icon, icon: boxiconsRegular[icon.name as keyof typeof boxiconsRegular]}
+//       case 'boxicons-solid':
+//         return {...icon, icon: boxiconsSolid[icon.name as keyof typeof boxiconsSolid]}
 
-      case 'boxicons-solid':
-        return {...icon, icon: boxiconsSolid[icon.name as keyof typeof boxiconsSolid]}
+//       case 'crypto':
+//         return {...icon, icon: crypto[icon.name as keyof typeof crypto]}
 
-      case 'crypto':
-        return {...icon, icon: crypto[icon.name as keyof typeof crypto]}
+//       case 'evil':
+//         return {...icon, icon: evil[icon.name as keyof typeof evil]}
 
-      case 'evil':
-        return {...icon, icon: evil[icon.name as keyof typeof evil]}
+//       case 'fa-brands':
+//         return {...icon, icon: faBrands[icon.name as keyof typeof faBrands]}
 
-      case 'fa-brands':
-        return {...icon, icon: faBrands[icon.name as keyof typeof faBrands]}
+//       case 'fa-regular':
+//         return {...icon, icon: faRegular[icon.name as keyof typeof faRegular]}
 
-      case 'fa-regular':
-        return {...icon, icon: faRegular[icon.name as keyof typeof faRegular]}
+//       case 'fa-solid':
+//         return {...icon, icon: faSolid[icon.name as keyof typeof faSolid]}
 
-      case 'fa-solid':
-        return {...icon, icon: faSolid[icon.name as keyof typeof faSolid]}
+//       case 'feather':
+//         return {...icon, icon: feather[icon.name as keyof typeof feather]}
 
-      case 'feather':
-        return {...icon, icon: feather[icon.name as keyof typeof feather]}
+//       case 'icomoon':
+//         return {...icon, icon: icomoon[icon.name as keyof typeof icomoon]}
 
-      case 'icomoon':
-        return {...icon, icon: icomoon[icon.name as keyof typeof icomoon]}
+//       case 'material':
+//         return {...icon, icon: material[icon.name as keyof typeof material]}
 
-      case 'material':
-        return {...icon, icon: material[icon.name as keyof typeof material]}
+//       case 'material-outlined':
+//         return {...icon, icon: materialOutlined[icon.name as keyof typeof materialOutlined]}
 
-      case 'material-outlined':
-        return {...icon, icon: materialOutlined[icon.name as keyof typeof materialOutlined]}
+//       case 'material-rounded':
+//         return {...icon, icon: materialRounded[icon.name as keyof typeof materialRounded]}
 
-      case 'material-rounded':
-        return {...icon, icon: materialRounded[icon.name as keyof typeof materialRounded]}
+//       case 'material-twotone':
+//         return {...icon, icon: materialTwotone[icon.name as keyof typeof materialTwotone]}
 
-      case 'material-twotone':
-        return {...icon, icon: materialTwotone[icon.name as keyof typeof materialTwotone]}
+//       case 'material-sharp':
+//         return {...icon, icon: materialSharp[icon.name as keyof typeof materialSharp]}
 
-      case 'material-sharp':
-        return {...icon, icon: materialSharp[icon.name as keyof typeof materialSharp]}
+//       case 'octicons':
+//         return {...icon, icon: octicons[icon.name as keyof typeof octicons]}
 
-      case 'octicons':
-        return {...icon, icon: octicons[icon.name as keyof typeof octicons]}
+//       case 'typicons':
+//         return {...icon, icon: typicons[icon.name as keyof typeof typicons]}
 
-      case 'typicons':
-        return {...icon, icon: typicons[icon.name as keyof typeof typicons]}
-
-      default:
-        return {...icon, icon: null}
-    }
-  },
-)
+//       default:
+//         return {...icon, icon: null}
+//     }
+//   },
+// )
 
 const searchIndex = new JSSearch.Search('importPath')
 searchIndex.searchIndex = new JSSearch.UnorderedSearchIndex()
