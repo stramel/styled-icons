@@ -17,10 +17,6 @@ describe(pack, () => {
     await page.keyboard.type(`${pack}/${iconName}`)
     //await jestPuppeteer.debug()
     const image = await screenshotIcon()
-    expect(image).toMatchImageSnapshot({
-      customSnapshotIdentifier: ({currentTestName}) => {
-        return currentTestName
-      },
-    })
+    expect(image).toMatchImageSnapshot()
   })
 })

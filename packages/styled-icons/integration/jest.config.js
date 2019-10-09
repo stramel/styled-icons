@@ -10,5 +10,4 @@ module.exports = {
     '^.+\\.js$': './jest.transform.js',
   },
   maxWorkers: Math.max(os.cpus().length - 1, 1),
-  testRunner: 'jest-circus/runner',
 }
