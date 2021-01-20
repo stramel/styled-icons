@@ -3052,10 +3052,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.1.0.tgz#6109c943fe7c8f92b18e99045c8bc154a170b79d"
   integrity sha512-nH9+hCUv/kSr+/roDvn0K9HzIujrStrllPa1bhRrUWrlGSPBLVGkqOoRtU9EbLcdm6ifXOr1Z+tMftFIisbJyA==
 
-"@svg-icons/material-twotone@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-twotone/-/material-twotone-1.1.0.tgz#58f5fa7acda70fe52db0418f58537e16b26a3fca"
-  integrity sha512-+EW34xSPhmTM6Vvyh0hWwshXncUzcVT5tiyvePsROeoXjCedO0LCQ7keP6PBqaKbrfj4ylgnulkE9mYln88VLw==
+"@svg-icons/material-twotone@1.33.0":
+  version "1.33.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-twotone/-/material-twotone-1.33.0.tgz#3595ea8cc4e16cc1309ab2717154811c169270a6"
+  integrity sha512-h9LSers3MtLjKGE7aPmWWmCG3tIItDfHHbZ1QClcCh/F1I9bT87QjbcL+gdRXGB1Kpl4i6E4+0pLaHlFKvkeVw==
 
 "@svg-icons/octicons@1.1.0":
   version "1.1.0"
