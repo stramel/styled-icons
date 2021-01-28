@@ -3022,10 +3022,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/ionicons-outline/-/ionicons-outline-1.1.0.tgz#76eb8163729c68e8175a9ec59fed79aae26b2286"
   integrity sha512-DrnkGAFMGb6BHLpHU14L+Mf5veMCQHuz14o5fDA1udjFLDFF+i1mQvrRLAEltOFR2XN/9eaANuZM30Qa7ateUA==
 
-"@svg-icons/ionicons-sharp@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/ionicons-sharp/-/ionicons-sharp-1.1.0.tgz#753484724e3ff6c72f785eb9dc223c918e7385cb"
-  integrity sha512-dhMaGJsqvPyw6oagWD6Tz1WoZsE7VePdlG1fwwa560/GwnxKIXCSJBTLz52+NweW8U/1aGJ6v5KV2b/j7TAshA==
+"@svg-icons/ionicons-sharp@1.35.0":
+  version "1.35.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/ionicons-sharp/-/ionicons-sharp-1.35.0.tgz#577ff0f2bde1796b2bb13795336c50cd001cbe64"
+  integrity sha512-8RSQN8gtI7Bm69iQ5dBLQPpMHd33Q/BUMf4UzHv4diHG45/DsAN4FdcloZK3eAS+ei6xppNDYeQecX65SK0yKg==
 
 "@svg-icons/ionicons-solid@1.1.0":
   version "1.1.0"
