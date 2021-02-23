@@ -35,7 +35,7 @@
   "devDependencies": {
     "@styled-icons/pack-builder": "^10.6.0",
     "@svg-icons/boxicons-regular": "1.1.0",
-    "react": "^16.13.1",
+    "react": "^17.0.1",
     "styled-components": "^5.1.1"
   }
 }
