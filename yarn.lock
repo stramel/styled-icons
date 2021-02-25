@@ -3082,10 +3082,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.2.0.tgz#9fe897f1b416ab12a688cde17590aec2b0995a3c"
   integrity sha512-yUQych3ldRa16zkO7A3EEoaTTHds5YeTGgQu2HvTmxPzTh2qDlO0n/x7iQ4+bVSkh6y9dj0I5WQFU7QzVkPoJQ==
 
-"@svg-icons/typicons@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/typicons/-/typicons-1.1.0.tgz#13282c50e6ca058e9add6ea5461de71cc633f727"
-  integrity sha512-kekQ7aToT0QEJf4Q+U+zgha68N3OPinja+OO/jVUOkFij6DWy0GsSqcBddPczsnAno1Yu26PUACY/zk/XHbg7Q==
+"@svg-icons/typicons@1.39.1":
+  version "1.39.1"
+  resolved "https://registry.yarnpkg.com/@svg-icons/typicons/-/typicons-1.39.1.tgz#a6eb52b84f9002c24fa43b9735315fe912bd61f1"
+  integrity sha512-eOJQAkUpjtb2OIDnJN2SBMOtJ6ZsuhV6donzYhSkaHQwUltksEzjRKbL67mRSosoLrrMc9YE9nSzMIUv1vqEsA==
 
 "@svg-icons/zondicons@1.1.0":
   version "1.1.0"
