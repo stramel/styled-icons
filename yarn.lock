@@ -2962,10 +2962,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/entypo/-/entypo-1.1.0.tgz#353b4c286ddced769943aa32e6ace28c88bd294b"
   integrity sha512-bXd76m711Ct2Ay/zok4WVlYG9gZrhWRykZWQFRS9uHlHY+kfCmREDZxaZOSKLO7s927sOIIq88IAoKi9RoZhbw==
 
-"@svg-icons/evaicons-outline@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/evaicons-outline/-/evaicons-outline-1.1.0.tgz#8276f35300550d929214eced1f7676ee78133a64"
-  integrity sha512-0RjcDH3NwXTqDkFHhUH194fl8K5v3AKW4G6enuZkqaZ61Ho48IBp18BCj9LD0M9Tlq4MdgFG1LQ7hcZgqpFrDA==
+"@svg-icons/evaicons-outline@1.39.1":
+  version "1.39.1"
+  resolved "https://registry.yarnpkg.com/@svg-icons/evaicons-outline/-/evaicons-outline-1.39.1.tgz#ada36bdaa732a3d337b9a8588aa76d5bfd1bc5a8"
+  integrity sha512-M+Ala1tx6phfcYn0kCMbBEh4jt+yXEDdAmeJmUyRsGHilfGjgfesHcBuESAIrZKuba+6SknTQyFq22Twy6EZoA==
 
 "@svg-icons/evaicons-solid@1.1.0":
   version "1.1.0"
