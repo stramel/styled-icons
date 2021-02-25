@@ -3012,10 +3012,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/heroicons-solid/-/heroicons-solid-1.1.0.tgz#7378fb6f5609e7d5d50c8e977877ebbf2dfb1711"
   integrity sha512-CjifgchsofEPZD1iidCiNYus35iTXGhk7ONhcSk/vfFdj7X/oUGuafKHe0Na4XzR1DhwCuinn0inqKNzSCiF5w==
 
-"@svg-icons/icomoon@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/icomoon/-/icomoon-1.1.0.tgz#c9aac5128c7d204c8304e0836c686042cf8b3c0c"
-  integrity sha512-H4WokIN4G3A5QAEYYBbNsHrazI5//Z9/Plp3BI8PQJ03jf9uGvOPbqVgd09pzmdSfz1ljeZnnaXp10wf8rYHBQ==
+"@svg-icons/icomoon@1.39.1":
+  version "1.39.1"
+  resolved "https://registry.yarnpkg.com/@svg-icons/icomoon/-/icomoon-1.39.1.tgz#b7cd5b602d6fc2be84c059cfc544e5b946e04515"
+  integrity sha512-9scK15z9iZtnR8jmo2ZG3KMqwO16Bz7ZMup1aVNZ7PhyQ/0dZ16+fNA9vPBypT630YesbsLUAGj2KpdBPYpU0w==
 
 "@svg-icons/ionicons-outline@1.1.0":
   version "1.1.0"
