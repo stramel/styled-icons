@@ -3072,10 +3072,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/remix-fill/-/remix-fill-1.1.0.tgz#d7e78df5f2c7ac650e17cf5c93070b803f56684e"
   integrity sha512-0rE9Fb3YUBAokWWdX1PhsiSVnWPagF6xE8feydjmH+6XV6UhbP9c6s1CiLejy4AeMdopU0Cxe5pC1okuIBcq0Q==
 
-"@svg-icons/remix-line@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/remix-line/-/remix-line-1.1.0.tgz#e8fc8eaa9864f296f73a76c57f9fc9ca6df826a3"
-  integrity sha512-v7F5Xvnn/31Gu2eGk82x3EalIb7KQcwn14Z187i4lD/H7T/ockk9q92OZstPacz/fstAAkJZ/oeXC8KWZnM7aQ==
+"@svg-icons/remix-line@1.39.1":
+  version "1.39.1"
+  resolved "https://registry.yarnpkg.com/@svg-icons/remix-line/-/remix-line-1.39.1.tgz#c998adf56507f24758af7da4979b9d07402fe8de"
+  integrity sha512-i8Le/J0f1+aesktUzzuXMpSkr05L7hjkGP9ZiZJh+eAZtx7x+jhCNEGaS718dm9h5Ckdq7GBo97NtavCiaXa7w==
 
 "@svg-icons/simple-icons@1.2.0":
   version "1.2.0"
