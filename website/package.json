@@ -21,7 +21,7 @@
     "history": "^5.0.0",
     "js-search": "^2.0.0",
     "query-string": "^6.13.1",
-    "react": "^16.13.1",
+    "react": "^17.0.2",
     "react-dom": "^16.13.1",
     "react-virtualized": "^9.21.2",
     "styled-components": "^5.1.1",
