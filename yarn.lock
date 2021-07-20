@@ -2932,10 +2932,10 @@
     telejson "^3.2.0"
     util-deprecate "^1.0.2"
 
-"@svg-icons/boxicons-logos@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.1.0.tgz#b7d281ff5502bd68d290c42cc19bd9091233d9b8"
-  integrity sha512-0RmNlgGG3yVmEJTBcXzG73RkVAUYd7aL+gsN61/2xqsKqBH1hPLemFlDuOjdVeYmuBXcCyzHaNM+iBQ90sSNKA==
+"@svg-icons/boxicons-logos@1.65.0":
+  version "1.65.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/boxicons-logos/-/boxicons-logos-1.65.0.tgz#6b8ddeac408e59eb5fea8234d36d61b27faa6def"
+  integrity sha512-708IDzlel9D6uHXhWfnEB3CD7gGgMoN7GdDXnB/QTNl7jmJmtnc9nbLDONszBax74LWwfafKHXrlKlA+ThXERw==
 
 "@svg-icons/boxicons-regular@1.1.0":
   version "1.1.0"
