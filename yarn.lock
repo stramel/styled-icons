@@ -3077,10 +3077,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/remix-line/-/remix-line-1.1.0.tgz#e8fc8eaa9864f296f73a76c57f9fc9ca6df826a3"
   integrity sha512-v7F5Xvnn/31Gu2eGk82x3EalIb7KQcwn14Z187i4lD/H7T/ockk9q92OZstPacz/fstAAkJZ/oeXC8KWZnM7aQ==
 
-"@svg-icons/simple-icons@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.2.0.tgz#9fe897f1b416ab12a688cde17590aec2b0995a3c"
-  integrity sha512-yUQych3ldRa16zkO7A3EEoaTTHds5YeTGgQu2HvTmxPzTh2qDlO0n/x7iQ4+bVSkh6y9dj0I5WQFU7QzVkPoJQ==
+"@svg-icons/simple-icons@1.71.0":
+  version "1.71.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/simple-icons/-/simple-icons-1.71.0.tgz#34987b5ab6f1957481b77b532bab1b3476df47b8"
+  integrity sha512-3ktPDDuvGzopucMlpz+5wy+fKjqpVUP4Hoo4vtPUQL7IZq59FHXPMZfD0gPxQK/46zuNQqXdIAv54A5idjIJiQ==
 
 "@svg-icons/typicons@1.1.0":
   version "1.1.0"
