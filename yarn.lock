@@ -3057,10 +3057,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/material-twotone/-/material-twotone-1.1.0.tgz#58f5fa7acda70fe52db0418f58537e16b26a3fca"
   integrity sha512-+EW34xSPhmTM6Vvyh0hWwshXncUzcVT5tiyvePsROeoXjCedO0LCQ7keP6PBqaKbrfj4ylgnulkE9mYln88VLw==
 
-"@svg-icons/octicons@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/octicons/-/octicons-1.1.0.tgz#91134ed5288cc62cb8f6e0dfb00047f373e82035"
-  integrity sha512-0ojopDx3BTOIEmMtWKpz4jTRcThlbZzHrv0cbK5u+cNEY8dWoauyfFSjMbJ4qjdEkKpWVVlY3F8H/M3bm3LTDw==
+"@svg-icons/octicons@1.77.0":
+  version "1.77.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/octicons/-/octicons-1.77.0.tgz#bf7b76032c3d2ca6a7e40cd46496af9f29794993"
+  integrity sha512-OUSkDQR+DYCAGqWc2RXKtlAQuJnBk/T57QlhA/Eb+jY/InPJgASnGwD547DD3Gpo63gDd2ZfMhFoxE/MUGT9Gg==
 
 "@svg-icons/open-iconic@1.1.0":
   version "1.1.0"
