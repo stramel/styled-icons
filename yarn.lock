@@ -2982,10 +2982,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/fa-brands/-/fa-brands-1.1.0.tgz#53ff79319d71fbc7a1cc99a5d41a8ef1ecc96670"
   integrity sha512-qVG22yOFIUZt69H4EBtLJSZqYUqtueFYqXUNQ4MvoAvWTc24D9DV6JkrEEp/QcvHT2AFbs4KHH9fof8971qzhQ==
 
-"@svg-icons/fa-regular@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/fa-regular/-/fa-regular-1.1.0.tgz#6f7d4a969df47a8d8325eea7e158f888e7716dfa"
-  integrity sha512-WKHRHQjpVeOsRtHf1ajNPox29aY5gwiHFT9VTJnRnHhws/obwRPxqzB5T7/0m4NU+S5bDnVobhjdBpizl0ygOA==
+"@svg-icons/fa-regular@1.86.0":
+  version "1.86.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/fa-regular/-/fa-regular-1.86.0.tgz#73ace23c4ec987141c12fa35c62d274898339282"
+  integrity sha512-vGmS9AznrGF+mfjIdVeakRZn6ZvKKnd9uQ3lluYbfrtKVITOvIZE6cDlivb5PAnLcLDntrgmvyiVrsp/tOu5jg==
 
 "@svg-icons/fa-solid@1.1.0":
   version "1.1.0"
