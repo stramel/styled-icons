@@ -2957,10 +2957,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/entypo-social/-/entypo-social-1.1.0.tgz#fb1b0d4b9c037b487da77cc281442c0b3ac4feeb"
   integrity sha512-hjoLmIlIbKWyfGwjpGgkt1xabG88s9LLTy0kcrJsHELwg+mJhslHqNRN6leZ6rg5w41W9uc/tCmPjEVaWIlhhQ==
 
-"@svg-icons/entypo@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/entypo/-/entypo-1.1.0.tgz#353b4c286ddced769943aa32e6ace28c88bd294b"
-  integrity sha512-bXd76m711Ct2Ay/zok4WVlYG9gZrhWRykZWQFRS9uHlHY+kfCmREDZxaZOSKLO7s927sOIIq88IAoKi9RoZhbw==
+"@svg-icons/entypo@1.86.0":
+  version "1.86.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/entypo/-/entypo-1.86.0.tgz#51a7449517e28dbe16cb9b4af7e44bc1257507e4"
+  integrity sha512-6Z1uVhUvumdMFhe4iv+wxq6kqV9zySBLOd7SjHxdH8hHcuTiyiPNjsHE9h1Dl0Ljbl5nhGGpMsFue2B1Yipb1w==
 
 "@svg-icons/evaicons-outline@1.1.0":
   version "1.1.0"
