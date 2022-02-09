@@ -3087,10 +3087,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/typicons/-/typicons-1.1.0.tgz#13282c50e6ca058e9add6ea5461de71cc633f727"
   integrity sha512-kekQ7aToT0QEJf4Q+U+zgha68N3OPinja+OO/jVUOkFij6DWy0GsSqcBddPczsnAno1Yu26PUACY/zk/XHbg7Q==
 
-"@svg-icons/zondicons@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/zondicons/-/zondicons-1.1.0.tgz#f4ca75f1bc5682a3526932b195eeaf4f5e6fda36"
-  integrity sha512-GRSIcqEECc8JnOKYsvG7pIU/2B53fkSJQtu9uuUK5itFYN0TloGKdFw7vMU6RRbSU5Cz795RxVcnq+oNadd8aw==
+"@svg-icons/zondicons@1.86.0":
+  version "1.86.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/zondicons/-/zondicons-1.86.0.tgz#86af78f85459d39d323160eddfda00f6829c91cc"
+  integrity sha512-Sxf9LyTItXyZEuO8MqG+pcE3n0Qw3UXk1CgIOudRidkj1Ibl0lNyFUskXWOFj9KNQ3ZK9Ci+qn7+eep3Y4Z+JA==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
