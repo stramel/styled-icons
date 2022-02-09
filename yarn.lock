@@ -3037,10 +3037,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/material-filled/-/material-filled-1.1.0.tgz#2dc174236ccfc6112b9be3b3a52efef2b857233c"
   integrity sha512-LySuwCQoO8hLli3JelbeTicj5VojGYwheCxvVTMZOCyhlZneh95CEKP/9B/syi4X+S7ki/diyM0wTbQGrQAfpw==
 
-"@svg-icons/material-outlined@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/material-outlined/-/material-outlined-1.1.0.tgz#03fa6bdc7b68d6fb1052bd6bd4320b6c75f0eb86"
-  integrity sha512-9CBFwfNuUMR/PuGDOFVnOPdUoK6+I+giuQh83ZXiP7pT2zabBROJl6SzDiER0sgJ13kapwEw148i3EtMw4Dssw==
+"@svg-icons/material-outlined@1.86.0":
+  version "1.86.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-outlined/-/material-outlined-1.86.0.tgz#f9fc2b691339a6737b12252ec7159ff8ef55e78a"
+  integrity sha512-ZsCEZfDNvYFG24+iBcWgZNGyyqtoO4lJBOO9uXx3BumW/zAWMv5sai9JeCrkS+phRo7bxbo+dArMXY09f+0Oxg==
 
 "@svg-icons/material-rounded@1.1.0":
   version "1.1.0"
