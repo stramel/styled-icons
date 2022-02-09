@@ -3067,10 +3067,10 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/open-iconic/-/open-iconic-1.1.0.tgz#d8ce2008e6a615f202143fe9b8d82ad2e65da5ed"
   integrity sha512-KgnU900Rb7ZDLHXUD8+3UsBF5WN/Pabx9J9p2gwVM/5C4x8s7/a7OyqTW16nHzyCmggf28rsb19Bi+WS6cF4HA==
 
-"@svg-icons/remix-fill@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@svg-icons/remix-fill/-/remix-fill-1.1.0.tgz#d7e78df5f2c7ac650e17cf5c93070b803f56684e"
-  integrity sha512-0rE9Fb3YUBAokWWdX1PhsiSVnWPagF6xE8feydjmH+6XV6UhbP9c6s1CiLejy4AeMdopU0Cxe5pC1okuIBcq0Q==
+"@svg-icons/remix-fill@1.86.0":
+  version "1.86.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/remix-fill/-/remix-fill-1.86.0.tgz#633c08f239bddad76a2baa5f77bff0a30883ab21"
+  integrity sha512-WdOVFDtC4xyLNcumaYqk0o5SVOWZ45gpNR3WU1Ha6/nK33ECABAXNHf44gV18ULUBkBxhtgClPRz6NM97mRgYg==
 
 "@svg-icons/remix-line@1.1.0":
   version "1.1.0"
