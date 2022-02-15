@@ -2492,45 +2492,46 @@
     globby "^11.0.0"
     read-yaml-file "^1.1.0"
 
-"@monorepolint/cli@^0.5.0-alpha.47+412c63c":
-  version "0.5.0-alpha.47"
-  resolved "https://registry.yarnpkg.com/@monorepolint/cli/-/cli-0.5.0-alpha.47.tgz#363c595cf6423335954da85372d05e482ea004f3"
-  integrity sha512-I7q+k3O5yRXnwQFIY9n+cwhsaR27OD6feX0DbE9QSIYWgxG6XT89g2xMnmmiCkHDKvNLfnXT+PNasG9gJBbWoQ==
+"@monorepolint/cli@^0.5.0-alpha.74+4acb8a5":
+  version "0.5.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@monorepolint/cli/-/cli-0.5.0-alpha.74.tgz#17ddc45614bb3c19acc23b258c8ad207ba14f245"
+  integrity sha512-nw7Ih29BDEd0BgHTlKsfwVzZVO5qO/6J6EWmHFQwMQKfoVvOHTknqi9KYb8/p3VOqTGkzwQsSArYpZkqeQPxiw==
   dependencies:
-    "@monorepolint/core" "^0.5.0-alpha.47+412c63c"
-    "@monorepolint/utils" "^0.5.0-alpha.47+412c63c"
+    "@monorepolint/core" "^0.5.0-alpha.74+4acb8a5"
+    "@monorepolint/utils" "^0.5.0-alpha.74+4acb8a5"
     chalk "^4.1.0"
     yargs "^15.3.1"
 
-"@monorepolint/core@^0.5.0-alpha.47+412c63c":
-  version "0.5.0-alpha.47"
-  resolved "https://registry.yarnpkg.com/@monorepolint/core/-/core-0.5.0-alpha.47.tgz#d3d9b13cc4221ae8a6c51d9d77adc36adfc30917"
-  integrity sha512-016MuAApTIQsaxTBD7IcbBf04lLSPPsejQretAwEAlyRFhWVbCPPJANTsRti4zGpQdAV6n4/7mDgN0v4HZdd3g==
+"@monorepolint/core@^0.5.0-alpha.74+4acb8a5":
+  version "0.5.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@monorepolint/core/-/core-0.5.0-alpha.74.tgz#d1ed92c004383d3dcc082e67699d880fa0a3821f"
+  integrity sha512-P0YRQC1kf3ZW5eavRhDOTKkUXPF65Bk16ZAzF20Yx62OYKnLyGpXEwJ26npW+jJ48w6f3tRGCXrgoSM/cP86Ag==
   dependencies:
-    "@monorepolint/utils" "^0.5.0-alpha.47+412c63c"
+    "@monorepolint/utils" "^0.5.0-alpha.74+4acb8a5"
     camelcase "^6.0.0"
     chalk "^4.1.0"
     minimatch "^3.0.4"
     runtypes "^4.0.0"
     tslib "^2.0.0"
 
-"@monorepolint/rules@^0.5.0-alpha.47+412c63c":
-  version "0.5.0-alpha.47"
-  resolved "https://registry.yarnpkg.com/@monorepolint/rules/-/rules-0.5.0-alpha.47.tgz#26b367cc8d377c0a9f5b7d578f5dbab2c8dc35ac"
-  integrity sha512-7K+vDqYBr7CtukdEFZ90Nm+0x1s0IKE8paFhWOxh+QC4ebECNh5B20rur90QJ67m3EGZPtDkSjyZ2uWWVnyTnw==
+"@monorepolint/rules@^0.5.0-alpha.74+4acb8a5":
+  version "0.5.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@monorepolint/rules/-/rules-0.5.0-alpha.74.tgz#0b5233b6f337367eff09704cb078316e894637ae"
+  integrity sha512-1ivbyAlkjvor/ek5S7ww5YPSlcCmYj0cY0QKt8i8HsaXYFvM7JUZHDnQLovuZxaP71E7SnpiCleLBgr2KyzMKg==
   dependencies:
-    "@monorepolint/core" "^0.5.0-alpha.47+412c63c"
-    "@monorepolint/utils" "^0.5.0-alpha.47+412c63c"
+    "@monorepolint/core" "^0.5.0-alpha.74+4acb8a5"
+    "@monorepolint/utils" "^0.5.0-alpha.74+4acb8a5"
     globby "^11.0.1"
     jest-diff "^26.0.1"
     minimatch "^3.0.4"
+    resolve-package-path "^3.1.0"
     runtypes "^4.0.0"
     semver "^7.3.2"
 
-"@monorepolint/utils@^0.5.0-alpha.47+412c63c":
-  version "0.5.0-alpha.47"
-  resolved "https://registry.yarnpkg.com/@monorepolint/utils/-/utils-0.5.0-alpha.47.tgz#de3b386f87884d68d59904f4c811f76d403bc638"
-  integrity sha512-i5uFeAa97N3fXJMhwWJ/CmA1JXocYZC96q4NrObkfwEQWylQasKEHkcm6aM5l6Na6Mc2NYOYriivz/ce+swk4A==
+"@monorepolint/utils@^0.5.0-alpha.74+4acb8a5":
+  version "0.5.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/@monorepolint/utils/-/utils-0.5.0-alpha.74.tgz#d1891fe30fd7d45ce519e7f5a9c6c8b71a91dd52"
+  integrity sha512-SjRIN4BaiQbuwL8Lfl5Um7Bk+FapIEmzYS3U0pnHFjP+/4OnFJOdEafKvF6tCFtUJyYjd+5hQGHyYLL9KYVq+g==
   dependencies:
     glob "^7.1.3"
 
@@ -9776,15 +9777,15 @@ moment@^2.18.1:
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.27.0.tgz#8bff4e3e26a236220dfe3e36de756b6ebaa0105d"
   integrity sha512-al0MUK7cpIcglMv3YF13qSgdAIqxHTO7brRtaz3DlSULbqfazqkc5kEjNrLDOM7fsjshoFIihnU8snrP7zUvhQ==
 
-monorepolint@^0.5.0-alpha.47:
-  version "0.5.0-alpha.47"
-  resolved "https://registry.yarnpkg.com/monorepolint/-/monorepolint-0.5.0-alpha.47.tgz#3d376c0aaadbb6f53dc9e97d397b0fdd8893a1cb"
-  integrity sha512-qAZKJIPtoTJuK+ai4O8aEjYGuK4NWM+ztMCxje9e4qbUZGmcLFsXgqOUVCqGOfibEgtzRMT3/eMnkJyDW1hb2g==
+monorepolint@^0.5.0-alpha.74:
+  version "0.5.0-alpha.74"
+  resolved "https://registry.yarnpkg.com/monorepolint/-/monorepolint-0.5.0-alpha.74.tgz#e83e69b1e8031b4836351f44a95741fb4bbb827c"
+  integrity sha512-6dzS+3+sdwDdLmxJEgF0WVpZjERWEyTKnxc8OGlmyrbkG2nkHGbmqybIu4uScjAHsZSRwVDUtRr9hwasJ5HmSA==
   dependencies:
-    "@monorepolint/cli" "^0.5.0-alpha.47+412c63c"
-    "@monorepolint/core" "^0.5.0-alpha.47+412c63c"
-    "@monorepolint/rules" "^0.5.0-alpha.47+412c63c"
-    "@monorepolint/utils" "^0.5.0-alpha.47+412c63c"
+    "@monorepolint/cli" "^0.5.0-alpha.74+4acb8a5"
+    "@monorepolint/core" "^0.5.0-alpha.74+4acb8a5"
+    "@monorepolint/rules" "^0.5.0-alpha.74+4acb8a5"
+    "@monorepolint/utils" "^0.5.0-alpha.74+4acb8a5"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -10538,6 +10539,18 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+path-root-regex@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/path-root-regex/-/path-root-regex-0.1.2.tgz#bfccdc8df5b12dc52c8b43ec38d18d72c04ba96d"
+  integrity sha1-v8zcjfWxLcUsi0PsONGNcsBLqW0=
+
+path-root@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/path-root/-/path-root-0.1.1.tgz#9a4a6814cac1c0cd73360a95f32083c8ea4745b7"
+  integrity sha1-mkpoFMrBwM1zNgqV8yCDyOpHRbc=
+  dependencies:
+    path-root-regex "^0.1.0"
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -11911,6 +11924,14 @@ resolve-from@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/resolve-from/-/resolve-from-5.0.0.tgz#c35225843df8f776df21c57557bc087e9dfdfc69"
   integrity sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
+
+resolve-package-path@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/resolve-package-path/-/resolve-package-path-3.1.0.tgz#35faaa5d54a9c7dd481eb7c4b2a44410c9c763d8"
+  integrity sha512-2oC2EjWbMJwvSN6Z7DbDfJMnD8MYEouaLn5eIX0j8XwPsYCVIyY9bbnX88YHVkbr8XHqvZrYbxaLPibfTYKZMA==
+  dependencies:
+    path-root "^0.1.1"
+    resolve "^1.17.0"
 
 resolve-url-loader@3.1.1:
   version "3.1.1"
