@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.13.1",
-    "copy-to-clipboard": "^3.2.1",
+    "copy-to-clipboard": "^3.3.2",
     "history": "^5.0.0",
     "js-search": "^2.0.0",
     "query-string": "^6.13.1",
